@@ -4,8 +4,9 @@ import ballerina/time;
 # bound to port `9090`.
 service / on new http:Listener(9090) {
 
-    # A resource for getting account information
-    # + return - string account number
+    # A resource for getting account information.
+    # 
+    # + return - account information.
     resource function get accounts() returns json|error {
 
         json accountResponse = 
@@ -37,7 +38,9 @@ service / on new http:Listener(9090) {
         return accountResponse;       
     }
 
-
+    # A resource for getting transaction information.
+    # 
+    # + return - transaction information.
     resource function get transactions() returns json|error {
 
         json transactionResponse = 
