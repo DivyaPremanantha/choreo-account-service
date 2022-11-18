@@ -15,6 +15,7 @@ service / on new http:Listener(9090) {
             "Account":[
                 {
                     "AccountId":"30080012343456",
+                    "DisplayName": "Account_5",
                     "Status":"Enabled",
                     "StatusUpdateDateTime": time:utcToString(time:utcNow()),
                     "Currency":"GBP",
@@ -23,6 +24,7 @@ service / on new http:Listener(9090) {
                     "Nickname":"Bills",
                     "OpeningDate":"2020-12-16T06:06:06+00:00",
                     "MaturityDate":"2025-04-16T06:06:06+00:00",
+                    "Balance": "$4567.23",
                     "Account":[
                     {
                         "SchemeName":"SortCodeAccountNumber",
