@@ -52,25 +52,75 @@ service / on new http:Listener(9090) {
             {
                 "AccountId": "12345678",
                 "TransactionId": "123",
-                "TransactionReference": "Ref 1",
+                "TransactionReference": "Food",
                 "Amount": {
-                "Amount": "10.00",
+                "Amount": "900.00",
                 "Currency": "GBP"
                 },
-                "CreditDebitIndicator": "Credit",
-                "BookingDateTime": "2017-04-05T10:43:07+00:00",
-                "ValueDateTime": "2017-04-05T10:45:22+00:00",
-                "TransactionInformation": "Cash from Aubrey",
+                "CreditDebitIndicator": "Debit",
+                "BookingDateTime": "2022-04-05T10:43:07+00:00",
+                "ValueDateTime": "2022-04-05T10:45:22+00:00",
+                "TransactionInformation": "Restaurant Bill",
                 "ProprietaryBankTransactionCode": {
                 "Code": "Transfer",
                 "Issuer": "AlphaBank"
                 },
                 "Balance": {
                 "Amount": {
-                    "Amount": "230.00",
+                    "Amount": "1230.00",
                     "Currency": "GBP"
                 },
-                "CreditDebitIndicator": "Credit",
+                "CreditDebitIndicator": "Debit",
+                "Type": "InterimBooked"
+                }
+            },
+            {
+                "AccountId": "10335678",
+                "TransactionId": "123",
+                "TransactionReference": "Clothing",
+                "Amount": {
+                "Amount": "200.00",
+                "Currency": "GBP"
+                },
+                "CreditDebitIndicator": "Debit",
+                "BookingDateTime": "2022-05-05T10:43:07+00:00",
+                "ValueDateTime": "2022-05-05T10:45:22+00:00",
+                "TransactionInformation": "Purchased a Hnadbag",
+                "ProprietaryBankTransactionCode": {
+                "Code": "Transfer",
+                "Issuer": "AlphaBank"
+                },
+                "Balance": {
+                "Amount": {
+                    "Amount": "1030.00",
+                    "Currency": "GBP"
+                },
+                "CreditDebitIndicator": "Debit",
+                "Type": "InterimBooked"
+                }
+            },
+            {
+                "AccountId": "10335678",
+                "TransactionId": "123",
+                "TransactionReference": "Health",
+                "Amount": {
+                "Amount": "100.00",
+                "Currency": "GBP"
+                },
+                "CreditDebitIndicator": "Debit",
+                "BookingDateTime": "2017-04-05T10:43:07+00:00",
+                "ValueDateTime": "2017-04-05T10:45:22+00:00",
+                "TransactionInformation": "Medical checkup",
+                "ProprietaryBankTransactionCode": {
+                "Code": "Transfer",
+                "Issuer": "AlphaBank"
+                },
+                "Balance": {
+                "Amount": {
+                    "Amount": "900.00",
+                    "Currency": "GBP"
+                },
+                "CreditDebitIndicator": "Debit",
                 "Type": "InterimBooked"
                 }
             }
