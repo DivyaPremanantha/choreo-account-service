@@ -15,7 +15,28 @@ service / on new http:Listener(9090) {
             "Account":[
                 {
                     "AccountId":"30080012343456",
-                    "DisplayName": "Account_5",
+                    "DisplayName": "Personal Accounts",
+                    "Status":"Enabled",
+                    "StatusUpdateDateTime": time:utcToString(time:utcNow()),
+                    "Currency":"GBP",
+                    "AccountType":"Personal",
+                    "AccountSubType":"CurrentAccount",
+                    "Nickname":"Bills",
+                    "OpeningDate":"2020-12-16T06:06:06+00:00",
+                    "MaturityDate":"2025-04-16T06:06:06+00:00",
+                    "Balance": "$4567.23",
+                    "Account":[
+                    {
+                        "SchemeName":"SortCodeAccountNumber",
+                        "Identification":"30080012343456",
+                        "Name":"Alex Karter",
+                        "SecondaryIdentification":"00021"
+                    }
+                    ]
+                },
+                {
+                    "AccountId":"15687012313256",
+                    "DisplayName": "Joint Account",
                     "Status":"Enabled",
                     "StatusUpdateDateTime": time:utcToString(time:utcNow()),
                     "Currency":"GBP",
