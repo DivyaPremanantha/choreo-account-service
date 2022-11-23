@@ -51,7 +51,7 @@ service / on new http:Listener(9090) {
             "Transaction": [
             {
                 "AccountId": "12345678",
-                "TransactionId": "123",
+                "TransactionId": "12323",
                 "TransactionReference": "Food",
                 "Amount": {
                 "Amount": "900.00",
@@ -76,7 +76,7 @@ service / on new http:Listener(9090) {
             },
             {
                 "AccountId": "10335678",
-                "TransactionId": "123",
+                "TransactionId": "456231",
                 "TransactionReference": "Clothing",
                 "Amount": {
                 "Amount": "200.00",
@@ -101,7 +101,7 @@ service / on new http:Listener(9090) {
             },
             {
                 "AccountId": "10335678",
-                "TransactionId": "123",
+                "TransactionId": "62723",
                 "TransactionReference": "Health",
                 "Amount": {
                 "Amount": "100.00",
@@ -111,6 +111,31 @@ service / on new http:Listener(9090) {
                 "BookingDateTime": "2017-04-05T10:43:07+00:00",
                 "ValueDateTime": "2017-04-05T10:45:22+00:00",
                 "TransactionInformation": "Medical checkup",
+                "ProprietaryBankTransactionCode": {
+                "Code": "Transfer",
+                "Issuer": "AlphaBank"
+                },
+                "Balance": {
+                "Amount": {
+                    "Amount": "900.00",
+                    "Currency": "GBP"
+                },
+                "CreditDebitIndicator": "Debit",
+                "Type": "InterimBooked"
+                }
+            },
+            {
+                "AccountId": "10335678",
+                "TransactionId": "80313",
+                "TransactionReference": "Bills",
+                "Amount": {
+                "Amount": "100.00",
+                "Currency": "GBP"
+                },
+                "CreditDebitIndicator": "Debit",
+                "BookingDateTime": "2017-04-05T10:43:07+00:00",
+                "ValueDateTime": "2017-04-05T10:45:22+00:00",
+                "TransactionInformation": "Paid iCloud Subscription",
                 "ProprietaryBankTransactionCode": {
                 "Code": "Transfer",
                 "Issuer": "AlphaBank"
