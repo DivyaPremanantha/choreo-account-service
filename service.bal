@@ -85,7 +85,7 @@ service / on new http:Listener(9090) {
                 "CreditDebitIndicator": "Debit",
                 "BookingDateTime": "2022-05-05T10:43:07+00:00",
                 "ValueDateTime": "2022-05-05T10:45:22+00:00",
-                "TransactionInformation": "Purchased a Hnadbag",
+                "TransactionInformation": "Purchased a Handbag",
                 "ProprietaryBankTransactionCode": {
                 "Code": "Transfer",
                 "Issuer": "AlphaBank"
@@ -129,7 +129,7 @@ service / on new http:Listener(9090) {
                 "TransactionId": "80313",
                 "TransactionReference": "Bills",
                 "Amount": {
-                "Amount": "100.00",
+                "Amount": "90.00",
                 "Currency": "GBP"
                 },
                 "CreditDebitIndicator": "Debit",
