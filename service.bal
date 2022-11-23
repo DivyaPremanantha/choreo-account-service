@@ -80,7 +80,7 @@ service / on new http:Listener(9090) {
                 },
                 "CreditDebitIndicator": "Debit",
                 "BookingDateTime": "2022-04-05T10:43:07+00:00",
-                "ValueDateTime": "2022-04-05T10:45:22+00:00",
+                "ValueDateTime": "2022-09-05T10:45:22+00:00",
                 "TransactionInformation": "Restaurant Bill",
                 "ProprietaryBankTransactionCode": {
                 "Code": "Transfer",
@@ -105,8 +105,8 @@ service / on new http:Listener(9090) {
                 },
                 "CreditDebitIndicator": "Debit",
                 "BookingDateTime": "2022-05-05T10:43:07+00:00",
-                "ValueDateTime": "2022-05-05T10:45:22+00:00",
-                "TransactionInformation": "Purchased a Handbag",
+                "ValueDateTime": "2022-10-12T10:45:22+00:00",
+                "TransactionInformation": "Bill from the City Center",
                 "ProprietaryBankTransactionCode": {
                 "Code": "Transfer",
                 "Issuer": "AlphaBank"
@@ -130,7 +130,7 @@ service / on new http:Listener(9090) {
                 },
                 "CreditDebitIndicator": "Debit",
                 "BookingDateTime": "2017-04-05T10:43:07+00:00",
-                "ValueDateTime": "2017-04-05T10:45:22+00:00",
+                "ValueDateTime": "2022-11-05T10:45:22+00:00",
                 "TransactionInformation": "Medical checkup",
                 "ProprietaryBankTransactionCode": {
                 "Code": "Transfer",
@@ -155,7 +155,7 @@ service / on new http:Listener(9090) {
                 },
                 "CreditDebitIndicator": "Debit",
                 "BookingDateTime": "2017-04-05T10:43:07+00:00",
-                "ValueDateTime": "2017-04-05T10:45:22+00:00",
+                "ValueDateTime": "2022-11-25T10:45:22+00:00",
                 "TransactionInformation": "Paid iCloud Subscription",
                 "ProprietaryBankTransactionCode": {
                 "Code": "Transfer",
