@@ -18,7 +18,7 @@ service / on new http:Listener(9090) {
                     "DisplayName": "Personal Accounts",
                     "Status":"Enabled",
                     "StatusUpdateDateTime": time:utcToString(time:utcNow()),
-                    "Currency":"GBP",
+                    "Currency":"USD",
                     "AccountType":"Personal",
                     "AccountSubType":"CurrentAccount",
                     "Nickname":"Bills",
@@ -39,7 +39,7 @@ service / on new http:Listener(9090) {
                     "DisplayName": "Joint Account",
                     "Status":"Enabled",
                     "StatusUpdateDateTime": time:utcToString(time:utcNow()),
-                    "Currency":"GBP",
+                    "Currency":"USD",
                     "AccountType":"Personal",
                     "AccountSubType":"CurrentAccount",
                     "Nickname":"Bills",
@@ -76,7 +76,7 @@ service / on new http:Listener(9090) {
                 "TransactionReference": "Food",
                 "Amount": {
                 "Amount": "900.00",
-                "Currency": "GBP"
+                "Currency": "USD"
                 },
                 "CreditDebitIndicator": "Debit",
                 "BookingDateTime": "2022-04-05T10:43:07+00:00",
@@ -89,7 +89,7 @@ service / on new http:Listener(9090) {
                 "Balance": {
                 "Amount": {
                     "Amount": "1230.00",
-                    "Currency": "GBP"
+                    "Currency": "USD"
                 },
                 "CreditDebitIndicator": "Debit",
                 "Type": "InterimBooked"
@@ -101,7 +101,7 @@ service / on new http:Listener(9090) {
                 "TransactionReference": "Clothing",
                 "Amount": {
                 "Amount": "200.00",
-                "Currency": "GBP"
+                "Currency": "USD"
                 },
                 "CreditDebitIndicator": "Debit",
                 "BookingDateTime": "2022-05-05T10:43:07+00:00",
@@ -114,7 +114,7 @@ service / on new http:Listener(9090) {
                 "Balance": {
                 "Amount": {
                     "Amount": "1030.00",
-                    "Currency": "GBP"
+                    "Currency": "USD"
                 },
                 "CreditDebitIndicator": "Debit",
                 "Type": "InterimBooked"
@@ -126,7 +126,7 @@ service / on new http:Listener(9090) {
                 "TransactionReference": "Health",
                 "Amount": {
                 "Amount": "100.00",
-                "Currency": "GBP"
+                "Currency": "USD"
                 },
                 "CreditDebitIndicator": "Debit",
                 "BookingDateTime": "2017-04-05T10:43:07+00:00",
@@ -139,7 +139,7 @@ service / on new http:Listener(9090) {
                 "Balance": {
                 "Amount": {
                     "Amount": "900.00",
-                    "Currency": "GBP"
+                    "Currency": "USD"
                 },
                 "CreditDebitIndicator": "Debit",
                 "Type": "InterimBooked"
@@ -151,7 +151,7 @@ service / on new http:Listener(9090) {
                 "TransactionReference": "Bills",
                 "Amount": {
                 "Amount": "90.00",
-                "Currency": "GBP"
+                "Currency": "USD"
                 },
                 "CreditDebitIndicator": "Debit",
                 "BookingDateTime": "2017-04-05T10:43:07+00:00",
@@ -164,7 +164,7 @@ service / on new http:Listener(9090) {
                 "Balance": {
                 "Amount": {
                     "Amount": "900.00",
-                    "Currency": "GBP"
+                    "Currency": "USD"
                 },
                 "CreditDebitIndicator": "Debit",
                 "Type": "InterimBooked"
