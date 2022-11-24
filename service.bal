@@ -15,7 +15,7 @@ service / on new http:Listener(9090) {
             "Account":[
                 {
                     "AccountId":"30080012343456",
-                    "DisplayName": "Personal Accounts",
+                    "DisplayName": "Personal Accounts - Royal Crown Trust",
                     "Status":"Enabled",
                     "StatusUpdateDateTime": time:utcToString(time:utcNow()),
                     "Currency":"USD",
@@ -24,7 +24,7 @@ service / on new http:Listener(9090) {
                     "Nickname":"Bills",
                     "OpeningDate":"2020-12-16T06:06:06+00:00",
                     "MaturityDate":"2025-04-16T06:06:06+00:00",
-                    "Balance": "$4567.23",
+                    "Balance": "$1975.23",
                     "Account":[
                     {
                         "SchemeName":"SortCodeAccountNumber",
@@ -36,7 +36,7 @@ service / on new http:Listener(9090) {
                 },
                 {
                     "AccountId":"15687012313256",
-                    "DisplayName": "Joint Account",
+                    "DisplayName": "Joint Account - Royal Crown Trust",
                     "Status":"Enabled",
                     "StatusUpdateDateTime": time:utcToString(time:utcNow()),
                     "Currency":"USD",
