@@ -84,7 +84,7 @@ service / on new http:Listener(9090) {
                 "TransactionInformation": "Restaurant Bill",
                 "ProprietaryBankTransactionCode": {
                 "Code": "Transfer",
-                "Issuer": "Royal Crown Trust"
+                "Issuer": "RoyalCrownTrust"
                 },
                 "Balance": {
                 "Amount": {
@@ -109,7 +109,7 @@ service / on new http:Listener(9090) {
                 "TransactionInformation": "Bill from the City Center",
                 "ProprietaryBankTransactionCode": {
                 "Code": "Transfer",
-                "Issuer": "Royal Crown Trust"
+                "Issuer": "RoyalCrownTrust"
                 },
                 "Balance": {
                 "Amount": {
@@ -134,7 +134,7 @@ service / on new http:Listener(9090) {
                 "TransactionInformation": "Medical checkup",
                 "ProprietaryBankTransactionCode": {
                 "Code": "Transfer",
-                "Issuer": "Royal Crown Trust"
+                "Issuer": "RoyalCrownTrust"
                 },
                 "Balance": {
                 "Amount": {
@@ -159,7 +159,7 @@ service / on new http:Listener(9090) {
                 "TransactionInformation": "Paid iCloud Subscription",
                 "ProprietaryBankTransactionCode": {
                 "Code": "Transfer",
-                "Issuer": "Royal Crown Trust"
+                "Issuer": "RoyalCrownTrust"
                 },
                 "Balance": {
                 "Amount": {
