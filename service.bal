@@ -21,7 +21,7 @@ service / on new http:Listener(9090) {
                     "Currency":"USD",
                     "AccountType":"Personal",
                     "AccountSubType":"CurrentAccount",
-                    "Nickname":"Bills",
+                    "Nickname":"Personal Account - Contoso Investment",
                     "OpeningDate":"2020-12-16T06:06:06+00:00",
                     "MaturityDate":"2025-04-16T06:06:06+00:00",
                     "Balance": "$1975.23",
@@ -42,7 +42,7 @@ service / on new http:Listener(9090) {
                     "Currency":"USD",
                     "AccountType":"Personal",
                     "AccountSubType":"CurrentAccount",
-                    "Nickname":"Bills",
+                    "Nickname":"Joint Account - Contoso Investment",
                     "OpeningDate":"2020-12-16T06:06:06+00:00",
                     "MaturityDate":"2025-04-16T06:06:06+00:00",
                     "Balance": "$4567.23",
@@ -83,7 +83,7 @@ service / on new http:Listener(9090) {
                 "ValueDateTime": "2022-09-05T10:45:22+00:00",
                 "TransactionInformation": "Restaurant Bill",
                 "ProprietaryBankTransactionCode": {
-                "Code": "Transfer",
+                "Code": "Contoso",
                 "Issuer": "RoyalCrownTrust"
                 },
                 "Balance": {
@@ -108,7 +108,7 @@ service / on new http:Listener(9090) {
                 "ValueDateTime": "2022-10-12T10:45:22+00:00",
                 "TransactionInformation": "Bill from the City Center",
                 "ProprietaryBankTransactionCode": {
-                "Code": "Transfer",
+                "Code": "Contoso",
                 "Issuer": "RoyalCrownTrust"
                 },
                 "Balance": {
@@ -133,7 +133,7 @@ service / on new http:Listener(9090) {
                 "ValueDateTime": "2022-11-05T10:45:22+00:00",
                 "TransactionInformation": "Medical checkup",
                 "ProprietaryBankTransactionCode": {
-                "Code": "Transfer",
+                "Code": "Contoso",
                 "Issuer": "RoyalCrownTrust"
                 },
                 "Balance": {
@@ -158,7 +158,7 @@ service / on new http:Listener(9090) {
                 "ValueDateTime": "2022-11-25T10:45:22+00:00",
                 "TransactionInformation": "Paid iCloud Subscription",
                 "ProprietaryBankTransactionCode": {
-                "Code": "Transfer",
+                "Code": "Contoso",
                 "Issuer": "RoyalCrownTrust"
                 },
                 "Balance": {
